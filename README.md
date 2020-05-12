@@ -2,6 +2,9 @@
 Used to bulk update threat protections using API calls on a Check Point management server
 
 ## Instructions 
+- This script is designed to be run on a Check Point management server
+- Verify the API is up and running before execution, from CLI run: `api status` 
+- Suggest running a test API show command before running, script does not currently have any verification built in
 
 ### Script setup
 1. ssh into a Check Point log server as admin
